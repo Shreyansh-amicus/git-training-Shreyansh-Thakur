@@ -19,3 +19,7 @@
 ## Is git merge feature/add-navigation a fast forward merge?
 ![git merge feature/add-navigation](screenshots/git%20merge%20feature-add-navigation.png)
 - No it is not a fast forward merge, because fast forward merge only occurs when the HEAD of the main branch can directly move to the target branch without creating any commits. But in this case when we merge feature/add-navigation branch to main, it creates a merge commit because our main branch can not directly move forward to the feature/add-navigation branch.
+
+## Resolution of merge conflict arised from git merge feature/add-footer.
+![git merge feature/add-footer](screenshots/git%20merge%20feature-add-footer.png)
+- I have resolved the merge conflict by accepting the incoming changes which means the changes which were made in the feature/add-footer branch becuase it has a more detailed and complete structure of the footer as compared to the generic structure of the footer in the main branch.
