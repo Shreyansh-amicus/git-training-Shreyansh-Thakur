@@ -1,0 +1,14 @@
+#Ignoring IDE files
+.vs/
+.vscode/
+.idea/
+
+#Ignoring build outputs
+bin/
+obj/
+node_modules/
+dist/
+
+#Ignoring OS files
+.DS_Store
+Thumbs.db
