@@ -23,3 +23,6 @@
 ## Resolution of merge conflict arised from git merge feature/add-footer.
 ![git merge feature/add-footer](screenshots/git%20merge%20feature-add-footer.png)
 - I have resolved the merge conflict by accepting the incoming changes which means the changes which were made in the feature/add-footer branch becuase it has a more detailed and complete structure of the footer as compared to the generic structure of the footer in the main branch.
+
+## git log --graph screenshot after merging feature/add-footer
+![git log --graph](screenshots/git%20log%20--graph%20merge%20feature-add-footer.png)
