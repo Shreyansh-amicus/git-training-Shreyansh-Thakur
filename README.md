@@ -123,3 +123,17 @@
 ![Squash merge](screenshots/Squash%20and%20merge%20from%20the%20reviewer.png)         
 - Commit history of squash merge and merge(no fast forward)
 ![Commit history of squash merge and merge(no fast forward)](screenshots/commit%20history%20of%20merge%20no%20fast%20forward%20and%20squash%20merge.png)
+
+## Task 16 : Screenshots of git bisect
+- git log before bisect         
+![git log before bisect](screenshots/git%20log%20before%20bisect.png)       
+- git bisect bad        
+![git bisect bad](screenshots/git%20bisect%20bad.png)        
+- git bisect good
+![git bisect good](screenshots/git%20bisect%20good.png)          
+- git bisect step 1         
+![git bisect step 1](screenshots/git%20bisect%20step-1.png)          
+- git bisect step 2
+![git bisect step 2](screenshots/git%20bisect%20step-2.png)          
+- git bisect result
+![git bisect result](screenshots/git%20bisect%20result.png)
