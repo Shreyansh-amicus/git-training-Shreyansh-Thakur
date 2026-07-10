@@ -101,3 +101,14 @@
 ![git stash list after stashing](screenshots/git%20stash%20list%20after%20stashing.png) 
 - git stash apply     
 ![git stash apply](screenshots/git%20stash%20apply.png)
+
+
+## Task 12 : Screenshots of git rebase -i HEAD~5
+- Logs before git rebase -i HEAD~5         
+![logs before git rebase -i HEAD~5](screenshots/git%20log%20before%20rebase%20-i%20HEAD~.png)    
+- git rebase -i HEAD~5 editor before editing    
+![git rebase -i HEAD~5 editor before editing](screenshots/git%20rebase%20-i%20HEAD~5%20editor%20before%20editing.png)     
+- git rebase -i editor after editing (sligt change, the first commit is pick I edited it later and forgot to take the screenshot.)     
+![git rebase -i editor after editing](screenshots/git%20rebase%20-i%20HEAD~5%20editor%20after%20editing.png)      
+- git log after rebase -i HEAD~5       
+![git log after rebase -i HEAD~5](screenshots/git%20log%20after%20rebase%20-i%20HEAD~5.png)
