@@ -137,3 +137,26 @@
 ![git bisect step 2](screenshots/git%20bisect%20step-2.png)          
 - git bisect result
 ![git bisect result](screenshots/git%20bisect%20result.png)
+
+## Task 17 : git hook
+#!/bin/bash
+
+#Search staged changes for TODO or FIXME (case-insensitive)
+
+if git diff --cached | grep -Ei '(TODO|FIXME)'; then
+    echo "❌ COMMIT REJECTED: Your staged changes contain 'TODO' or 'FIXME'."
+    echo "Please resolve these placeholders before committing."
+    exit 1
+fi
+
+exit 0
+
+## Task 17 : Screenshots of git hook
+- Problematic code    
+![problematic code](screenshots/Problematic%20code.png)     
+- git hook error message
+![git hook error message](screenshots/git%20hooks%20error.png)        
+- Corrected code        
+![corrected code](screenshots/Corrected%20code.png)        
+- git hook allows correct code         
+![git hook allow](screenshots/git%20hook%20allow.png)
