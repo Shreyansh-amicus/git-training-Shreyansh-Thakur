@@ -1,0 +1,21 @@
+#container{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#box1{
+    width: 25px;
+    height: 25px;
+    padding-left: 10%;
+    background-color: aqua;
+}
+
+#box1{
+    width: 25px;
+    height: 25px;
+    padding-right: 10%;
+    background-color: aqua;
+}
