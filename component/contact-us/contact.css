@@ -26,3 +26,7 @@
     align-items: end;
     padding-right: 20%;
 }
+
+.details-item{
+    padding: 2px;
+}
