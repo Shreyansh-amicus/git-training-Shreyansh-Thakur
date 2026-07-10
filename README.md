@@ -27,9 +27,10 @@
 ## git log --graph screenshot after merging feature/add-footer
 ![git log --graph](screenshots/git%20log%20--graph%20merge%20feature-add-footer.png)
 
-## git log --graph before and after rebase
-![git log --graph before rebase]()
-![git log --graph after rebase]()
+## git log --graph before and after rebase, fast forward merge after rebase
+![git log --graph before rebase](screenshots/git%20log%20--graph%20before%20rebase.png)
+![git log --graph after rebase](screenshots/git%20log%20--graph%20after%20rebase.png)
+![fast forward merge after rebase](screenshots/fast%20forward%20merge%20after%20rebase.png)
 
 ## When should you rebase vs merge?
 - git rebase is used to maintain clean and linear history but in doing so it rewrites commit history.
@@ -38,3 +39,14 @@
 
 ## Golden rule of rebasing.
 - Never rebase branch which is pushed to the remote server or has developers contributing to them.
+
+## Why cherry-pick instead of merging the whole branch?
+- cherry-pick selectively picks a specific commit out of a branch and applies it on the desired branch.
+- Whereas merge merges two branches completely which means all the unnecessary files also gets merged due to merge.
+
+## When is cherry-pick appropriate?
+- Cherry pick is very useful when we want to provide a hotfix patch to a specific bug in production or when we want to extract a specific feature from a stale branch instead of merging it completely.
+
+## Screenshots of cherry-pick and pull request
+![git cherry-pick](screenshots/cherry-pick.png)
+![pull request](screenshots/pull%20request.png)
