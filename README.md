@@ -50,3 +50,7 @@
 ## Screenshots of cherry-pick and pull request
 ![git cherry-pick](screenshots/cherry-pick.png)
 ![pull request](screenshots/pull%20request.png)
+
+## Screenshots of bad commit and reverting it back
+![git log --oneline after bad commit](screenshots/log%20after%20deleting%20index.css%20file%20by%20mistake.png)
+![git log --oneline after revert](screenshots/After%20reverting%20the%20mistake.png)
