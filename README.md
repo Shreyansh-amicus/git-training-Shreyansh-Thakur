@@ -160,3 +160,11 @@ exit 0
 ![corrected code](screenshots/Corrected%20code.png)        
 - git hook allows correct code         
 ![git hook allow](screenshots/git%20hook%20allow.png)
+
+## Task 18 : git blame
+![git balme](screenshots/git%20blame.png)
+
+## Task 18 : How would git blame help in a team project?
+- git blame is a debugging command which is used to identify what changes were made in which commit and who made those changes.
+- git blame is extremely useful when working in a team to identify who introduced a buggy commit and can ask them about why did they make certain changes and ask them for doing tasks responsibly next time.
+- git blame also helps identify a particular section of code in a file was introduced in which commit and was edited or created by whom? It is very useful to identify who introduced buggy code. You can see a particular section with the help of -L flag like git blame -L 25,50 README.md to see who created or made changes to line 25 to 50 in README.md file.
