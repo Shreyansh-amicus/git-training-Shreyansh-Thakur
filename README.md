@@ -91,3 +91,13 @@
 - One must be very careful whilst using git reset --hard as it rewrites the history, so undoing a git reset --hard is not an option.
 
 ## Task 10 : Never reset --hard on a remote repository or a repository on which other developers are working, because git reset --hard rewrites history and if some other developer is reliant on that specific commit it will lead to a ton of conflicts.
+
+## Task 11 : Screenshots of git stash
+- git stash list before stashing
+![git stash list before stashing](screenshots/git%20stash%20list%20before%20stashing.png)    
+- git stash push     
+![git stash push](screenshots/git%20stash%20push.png)      
+- git stash list after stashing      
+![git stash list after stashing](screenshots/git%20stash%20list%20after%20stashing.png) 
+- git stash apply     
+![git stash apply](screenshots/git%20stash%20apply.png)
