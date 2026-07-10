@@ -112,3 +112,14 @@
 ![git rebase -i editor after editing](screenshots/git%20rebase%20-i%20HEAD~5%20editor%20after%20editing.png)      
 - git log after rebase -i HEAD~5       
 ![git log after rebase -i HEAD~5](screenshots/git%20log%20after%20rebase%20-i%20HEAD~5.png)
+
+## Task 13 : Screenshots of merging pull requests
+
+- Reply to a comment from the reviewer     
+![reply to a comment from the reviewer](screenshots/Reply%20to%20a%20comment%20from%20the%20reviewer.png)     
+- Merge(no fast forward)        
+![Merge no fast forward](screenshots/Merge(no%20fast%20forward)%20from%20the%20reviewer.png)       
+- Squash merge         
+![Squash merge](screenshots/Squash%20and%20merge%20from%20the%20reviewer.png)         
+- Commit history of squash merge and merge(no fast forward)
+![Commit history of squash merge and merge(no fast forward)](screenshots/commit%20history%20of%20merge%20no%20fast%20forward%20and%20squash%20merge.png)
