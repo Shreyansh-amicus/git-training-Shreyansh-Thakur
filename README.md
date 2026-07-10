@@ -26,3 +26,15 @@
 
 ## git log --graph screenshot after merging feature/add-footer
 ![git log --graph](screenshots/git%20log%20--graph%20merge%20feature-add-footer.png)
+
+## git log --graph before and after rebase
+![git log --graph before rebase]()
+![git log --graph after rebase]()
+
+## When should you rebase vs merge?
+- git rebase is used to maintain clean and linear history but in doing so it rewrites commit history.
+- Whereas git merge merges the two branches into creating a new merge commit without rewriting the commit history or preserving it.
+- You can use rebase if you are working on a branch locally or have no one contributing to your feature branch, since rebase rewrites history. Whereas if you are working on a remote branch and you have other developers tagging along with you, you should always use git merge since it maintains commit history.
+
+## Golden rule of rebasing.
+- Never rebase branch which is pushed to the remote server or has developers contributing to them.
